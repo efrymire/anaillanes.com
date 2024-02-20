@@ -1,0 +1,39 @@
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+
+  --foreground-rgb: 0, 0, 0;
+  --foreground-secondary-rgb: 152, 157, 158;
+  --background-rgb: 255, 255, 245;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: rgb(var(--foreground-secondary-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+a {
+  color: rbg(var(--foreground-secondary-rgb));
+  text-decoration: none;
+  letter-spacing: 0.05rem;
+  opacity: 0.5;
+
+  &:hover {
+    color: rgb(var(--foreground-rgb));
+  }
+}

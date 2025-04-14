@@ -15,7 +15,7 @@ export default function Page() {
       />
       <div className={styles.navigation}>
         <a href="https://www.linkedin.com/in/anaillanes/" target="_blank">LinkedIn</a>
-        <Link href="/Ana_Illanes_CV.pdf" target="_blank">Resume</Link>
+        <Link href="/Ana_Illanes_Portfolio.pdf" target="_blank">Portfolio</Link>
       </div>
     </main>
   );
